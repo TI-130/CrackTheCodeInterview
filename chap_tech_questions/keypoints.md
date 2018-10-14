@@ -12,6 +12,7 @@
 
 ## Data Structures
 ### 1. Linked Lists
+A list made up of a series of connecting nodes. Within each node, there exists a pointer to the next node (for double linked list, a node also contains a pointer to the last node). 
 ### 2. Trees, Tries, & Graphs
 ### 3. Stacks & Queues
 ### 4. Heaps
