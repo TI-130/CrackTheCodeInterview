@@ -17,15 +17,15 @@ A collection of elements which are stored in sequence by index.
 A list that are made up of a series of connecting nodes. Within each node, there exists a pointer to the next node (for double linked list, a node also contains a pointer to the last node). 
 ### 3. Trees, Tries, & Graphs
 Tree: a binary data structure with a root node and certain amount of subnodes that make up for its subtree.
-Tries???
+Trie: !!!Need to go over
 Graph: a data structures used to represent graph, which is made up of nodes and edges. 
 ### 4. Stacks & Queues
 Stack: FILO
 Queues: FIFO
 ### 5. Heaps
-???
+A specialized tree structure that ensures priority property, which is that if P is parent node of N, the value of P is either greater than or equal to or less than the value of N. 
 ### 7. Hash Tables
-???
+A associative data structure that map keys to values.
 
 ## Algorithms
 ### 1. Binary Search
