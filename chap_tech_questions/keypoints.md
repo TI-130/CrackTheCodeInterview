@@ -44,3 +44,52 @@ A traverse algorithm that focus on depth.
 ### 3. Recurstion
 ### 4. Dynamic Programming
 ### 5. Big O Time & Space
+
+## Walking through a problem
+### 1. Listen
+Do not ignore info givien. Use all info provided by the interviewr, come back and review those info if stuck.
+### 2. Example
+Do not try to solve problem in your head. Come up with an example that is:
+1. specific (come with required values), sufficiently 
+2. sufficiently large
+3. not special case 
+### 3. Brute Force
+State the brute force! Explain the space & time complexity.
+### 4. Optimize
+Techniques:
+1. Find unused info
+2. Use a fresh example
+3. Solve it incorrectly
+4. Make space vs time tradeoff: maybe store extra state that helps you optimize runtime
+5. Precompute info: reorganize data(sorting) or compute some values upfront
+6. Use a hash table: it's efficient
+7. Think about best conceivable runtime.
+### 5. Walk Though the optimal algorithm
+### 6. Implement
+Write code that is:
+1. Modularized: pretend you have a function for centain things and explain what they do later.
+2. Error checks: add "to-do" to where you think might break your algorithm
+3. Use other classes/structs where appropriate.
+4. Good variable names
+### 7. Test
+1. Start with conceptual test.
+2. Check werid looking code.
+3. Check the hot spots for bugs: base cases in recursion, integer divison, null nodes in binary trees, start and end of iteration through linked list.
+4. Small test cases: come up with another shorter example and test it
+5. Special cases: check for null, single element, the extreme cases and other special cases.
+6. Analyze why the bug occured.
+
+## Optimize & Solve Techniques:
+### 1: Look for BUD
+Three of the most common things that an algorithm can "waste" time doing. Should walk through the brute force looking for these things.
+1. Bottlenecks: part of algorithm that slows down the overall runtime.
+2. Unncessary work
+3. Duplicaated work
+
+### 2: DIY
+### 3: Simplify and generalize
+### 4: Base case and build
+### 5: Data strucure brainstorm
+### BCR
+
+
