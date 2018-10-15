@@ -31,11 +31,18 @@ public class MyArrayList {
   }
   
   public boolean remove(Object obj) {
+    for (int i = 0; i < cont.length; i++) {
+        if(cont[i] == obj)
+            remove(i);
+    }
     return false;
   }
   
   public boolean remove(int index) {
-    return false;
+    for (int i = index + 1; i< cont.length; i++) {
+        cont[i-1] = cont[i];
+    }
+    return true;
   }
   
   public void showContent() {
@@ -66,20 +73,13 @@ public class MyArrayList {
     al.add("3");
     al.add(false);
     al.add(al);
-    // al.add("6");
-    // al.add("7");
-    // al.add("8");
-    // al.add("9");
-    // al.add("10");
-    // al.add("11");
-    // al.add("12");
-    // al.add("13");
-    // al.add("14");
-    // al.add("15");
-    // al.add("16");
-    // al.add("17");
-    // al.add("18");
-    
     al.showContent();
+    System.out.print("____________________________");
+    al.remove(al);
+    al.showContent();
+    System.out.print("____________________________");
+    al.remove(2);
+    al.showContent();
+    System.out.print("____________________________");
   }
 }
